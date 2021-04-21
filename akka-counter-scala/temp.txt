@@ -1,0 +1,112 @@
+// Your First C++ Program
+
+#include <iostream>
+
+int main() {
+    float a = 3;
+    float b = 1;
+    char *word = "abc";
+    float c = 0;
+    float dd = 0.0;
+    bool f = false;
+    //std::cout << "Hello World!";
+    return 0;
+}
+0// Your First C++ Program
+0
+0#include <iostream>
+0
+0int main() {
+0    float a = 3;
+0    float b = 1;
+0    char *word = "abc";
+0    float c = 0;
+0    float dd = 0.0;
+0    bool f = false;
+0    //std::cout << "Hello World!";
+0    return 0;
+0}
+0// Your First C++ Program
+1
+2#include <iostream>
+3
+4int main() {
+5    float a = 3;
+6    float b = 1;
+7    char *word = "abc";
+8    float c = 0;
+9    float dd = 0.0;
+10    bool f = false;
+11    //std::cout << "Hello World!";
+12    return 0;
+13}
+0@// Your First C++ Program
+1@
+2@#include <iostream>
+3@
+4@int main() {
+5@    float a = 3;
+6@    float b = 1;
+7@    char *word = "abc";
+8@    float c = 0;
+9@    float dd = 0.0;
+10@    bool f = false;
+11@    //std::cout << "Hello World!";
+12@    return 0;
+13@}
+0@// Your First C++ Program
+1@
+2@#include <iostream>
+3@
+4@int main() {
+5@    float a = 3;
+6@    float b = 1;
+7@    char *word = "abc";
+8@    float c = 0;
+9@    float dd = 0.0;
+10@    bool f = false;
+11@    //std::cout << "Hello World!";
+12@    return 0;
+13@}
+0@// Your First C++ Program
+1@
+2@#include <iostream>
+3@
+4@int main() {
+5@    float a = 3;
+6@    float b = 1;
+7@    char *word = "abc";
+8@    float c = 0;
+9@    float dd = 0.0;
+10@    bool f = false;
+11@    //std::cout << "Hello World!";
+12@    return 0;
+13@}
+// Your First C++ Program
+
+#include <iostream>
+
+int main() {
+    float a = 3;
+    float b = 1;
+    char *word = "abc";
+    float c = 0;
+    float dd = 0.0;
+    bool f = false;
+    //std::cout << "Hello World!";
+    return 0;
+}
+
+// Your First C++ Program
+#include <iostream>
+int main() {
+    float b = 1;
+    char *word = "abc";
+    float a = 3;
+
+    float dd = 0.0;
+    return 0;
+    //std::cout << "Hello World!";
+    bool f = false;
+    float c = 0;
+}

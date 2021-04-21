@@ -1,0 +1,3 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/home/korristo/Parser_needed/akka-counter-scala/src/main/resources/text.txt,/home/korristo/Parser_needed/akka-counter-scala/target/scala-2.12/classes/text.txt)[0m
+[0m[[0mdebug[0m] [0m	(/home/korristo/Parser_needed/akka-counter-scala/src/main/resources/small-text.txt,/home/korristo/Parser_needed/akka-counter-scala/target/scala-2.12/classes/small-text.txt)[0m
