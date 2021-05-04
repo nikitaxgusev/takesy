@@ -42,6 +42,18 @@ class Master(numberOfWorkers: Int, occurenceToFind : String) extends Actor with 
           string_count += 1
         })
 
+      Source
+        .fromResource(filename)
+        .getLines
+        .foreach(line_label => {
+          //          val new_line = string_count.toString + "@" + line
+          //          router.route(new_line, sender())
+          val test = mutable.Map[String, Int]()
+          test(line_label) = 0
+          router.route(test, sender())
+          //string_count += 1
+        })
+
       numberOfLines = Source
         .fromResource(filename)
         .getLines

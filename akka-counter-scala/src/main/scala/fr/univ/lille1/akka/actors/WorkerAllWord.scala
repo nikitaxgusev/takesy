@@ -54,6 +54,22 @@ class WorkerAllWord(masterActor: ActorRef) extends Actor with ActorLogging {
     return line
   }
 
+  def set_label(line: String): String = {
+    val label_type = "@type_"
+    val _line = line
+     if (line.contains("int")) {
+       _line = label_type + "int" + _line
+    }
+    if (line.contains("float")) {
+      _line = label_type + "float" + _line
+    }
+    if (line.contains("bool")) {
+      _line = label_type + "bool" + _line
+    }
+
+    return _line
+  }
+
   def receive = {
     case line: String => {
       val numbers: mutable.Map[Int, String] = mutable.Map.empty[Int, String]
@@ -102,6 +118,18 @@ class WorkerAllWord(masterActor: ActorRef) extends Actor with ActorLogging {
 //        })
       }
       masterActor ! numbers
+    }
+    case line_label: mutable.Map[String, Int] => {
+      val line = set_label(line_label.key)
+      val writer = new FileWriter("temp_label.txt", true)
+      try {
+        writer.write(line)
+        writer.append('\n')
+        writer.flush()
+      } catch {
+        case ex: IOException =>
+          System.out.println(ex.getMessage)
+      } finally if (writer != null) writer.close()
     }
   }
 }
